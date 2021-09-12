@@ -6,9 +6,25 @@ const loadProducts = () => {
 };
 loadProducts();
 
+const searchProducts = () => {
+  const searchInput = document.getElementById('search-Input');
+  const searchText = searchInput.value;
+  const url = `https://fakestoreapi.com/products/category/${searchText}`;
+
+  fetch(url)
+    .then(res => res.json())
+    .then(data => showProducts(data));
+};
+
+
 // show all product in UI 
+
 const showProducts = (products) => {
+
   const allProducts = products.map((pd) => pd);
+  const allProductsList = document.getElementById("all-products");
+  allProductsList.textContent = '';
+
   for (const product of allProducts) {
     const image = product.images;
     const div = document.createElement("div");
@@ -72,7 +88,7 @@ const showProducts = (products) => {
             </div>
           </div>
       `;
-    document.getElementById("all-products").appendChild(div);
+    allProductsList.appendChild(div);
   }
 };
 let count = 0;
@@ -133,3 +149,6 @@ const buyNow = () => {
     <p class='cart text-center'> If you want to buy your selected product then <button class='btn btn-primary'>Click Here</button></p>
     `
 }
+
+
+
