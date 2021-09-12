@@ -1,6 +1,6 @@
 ## Repository link: https://github.com/Programming-Hero-Web-Course4/ranga-store-fix-sumon6638-sm
 
-## Live site link:
+## Live site link: https://easytobuy-sumon6638.netlify.app/
 
 ## I have to do:
 
