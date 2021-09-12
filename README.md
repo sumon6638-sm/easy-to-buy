@@ -20,17 +20,17 @@
 
 8. Bonus Marks:
 
-   i. Rating related information 2ta --> okk
+   1. Rating related information 2ta --> okk
 
-   a. kotojon rating dise...
-   b. R gor rating koto?
+      1. kotojon rating dise...
+      2. R gor rating koto?
 
-   ii. Search button dekhte sundor na...seta k dekhte sundor korte hbe... --> okk
+   2. Search button dekhte sundor na...seta k dekhte sundor korte hbe... --> okk
 
-   iii. Website er name change korte hbe... --> okk
+   3. Website er name change korte hbe... --> okk
 
-   iv. Card er color change krte hbe... reasonable... --> okk
+   4. Card er color change krte hbe... reasonable... --> okk
 
-   v. Details ee click korle details information dekhate hbe...search button er nice dekhate hbe or modal diye jkno vabe dekhate hbe...API theke load kore...(alert, confirm, prompt use kora jabe na...) --> okk
+   5. Details ee click korle details information dekhate hbe...search button er nice dekhate hbe or modal diye jkno vabe dekhate hbe...API theke load kore...(alert, confirm, prompt use kora jabe na...) --> okk
 
-   vi. code organize korte hbe...
+   6. code organize korte hbe...
