@@ -29,7 +29,7 @@
 
    3. Website er name change korte hbe... --> okk
 
-   4. Card er color change krte hbe... reasonable...
+   4. Card er color change krte hbe... reasonable... --> okk
 
    5. Details ee click korle details information dekhate hbe...search button er nice dekhate hbe or modal diye jkno vabe dekhate hbe...API theke load kore...(alert, confirm, prompt use kora jabe na...) --> okk
 
