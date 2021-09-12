@@ -16,14 +16,14 @@
 
 6. Buy Now is optional... as your wish... --> okk
 
-7. kiso likhe search dile dynamically product gula update hbe... optional...
+7. kiso likhe search dile dynamically product gula update hbe... optional... --> okk
 
 8. Bonus Marks:
 
    1. Rating related information 2ta --> okk
 
-      1. kotojon rating dise...
-      2. R gor rating koto?
+      1. kotojon rating dise... --> okk
+      2. R gor rating koto? --> okk
 
    2. Search button dekhte sundor na...seta k dekhte sundor korte hbe... --> okk
 
