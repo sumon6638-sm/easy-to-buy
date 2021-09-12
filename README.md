@@ -33,4 +33,4 @@
 
    5. Details ee click korle details information dekhate hbe...search button er nice dekhate hbe or modal diye jkno vabe dekhate hbe...API theke load kore...(alert, confirm, prompt use kora jabe na...) --> okk
 
-   6. code organize korte hbe...
+   6. code organize korte hbe... --> okk
