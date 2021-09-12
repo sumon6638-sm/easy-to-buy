@@ -125,4 +125,13 @@ const updateTaxAndCharge = () => {
 const updateTotal = () => {
   const grandTotal = getInputValue("price") + getInputValue("delivery-charge") + getInputValue("total-tax");
   document.getElementById("total").innerText = parseFloat(grandTotal).toFixed(2);
+
+  buyNow();
 };
+
+const buyNow = () => {
+  const div = document.getElementById('checkOut');
+  div.innerHTML = `
+    <p class='cart text-center'> If you want to buy your selected product then <button class='btn btn-primary'>Click Here</button></p>
+    `
+}

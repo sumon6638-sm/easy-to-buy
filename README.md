@@ -14,7 +14,7 @@
 
 5. Fractional number gula perfect vabe add hcce na...seta k thik korte hbe... 2 decimal... --> okk
 
-6. Buy Now is optional... as your wish...
+6. Buy Now is optional... as your wish... --> okk
 
 7. kiso likhe search dile dynamically product gula update hbe... optional...
 
