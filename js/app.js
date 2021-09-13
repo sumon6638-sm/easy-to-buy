@@ -22,13 +22,13 @@ const searchProducts = () => {
 const showProducts = (products) => {
 
   const allProducts = products.map((pd) => pd);
-  const allProductsList = document.getElementById("all-products");
+  const allProductsList = document.getElementById('all-products');
   allProductsList.textContent = '';
 
   for (const product of allProducts) {
     const image = product.images;
     const div = document.createElement("div");
-    div.classList.add("product");
+    div.classList.add("col");
     div.innerHTML = `<div class="col">
             <div class="card border-success border-2 h-100">
 
@@ -101,9 +101,11 @@ const addToCart = (id, price) => {
   document.getElementById("total-Products").innerText = count;
 };
 
+
+
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
-  const converted = parseInt(element);
+  const converted = parseFloat(element);
   return converted;
 };
 
@@ -140,8 +142,9 @@ const updateTaxAndCharge = () => {
 //grandTotal update function
 const updateTotal = () => {
   const grandTotal = getInputValue("price") + getInputValue("delivery-charge") + getInputValue("total-tax");
-  document.getElementById("total").innerText = parseFloat(grandTotal).toFixed(2);
+  document.getElementById("total").innerText = (grandTotal).toFixed(2);
 };
+
 
 const buyNow = () => {
   const div = document.getElementById('checkOut');
@@ -149,6 +152,3 @@ const buyNow = () => {
     <p class='cart text-center'> If you want to buy your selected product then <button class='btn btn-primary'>Click Here</button></p>
     `
 }
-
-
-

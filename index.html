@@ -23,17 +23,18 @@
 <body>
   <header></header>
   <main class="container">
-    <div class="container my-5">
-      <h1 class='text-center text-success'>Hello Programmer Search is Available Here!!!</h1>
+    <div class="container my-5 bg-secondary py-3">
+      <h1 class='text-center text-warning'>Easy To Buy</h1>
+      <h1 class='text-center text-dark'>Hello Programmer Search is Available Here!!!</h1>
       <div class="d-flex">
-        <input type="search" class="form-control me-2" placeholder="Search your product" id="search-Input">
-        <button onclick='searchProducts()' id="search-btn" class="btn btn-outline-success">Search</button>
+        <input type="search" class="form-control me-2" placeholder="Search your product by category" id="search-Input">
+        <button onclick='searchProducts()' id="search-btn" class="btn btn-outline-dark">Search</button>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
-        <div id="all-products" class="row g-4">
+        <div id='all-products' class="row g-4 card-wrapper">
 
         </div>
       </div>
