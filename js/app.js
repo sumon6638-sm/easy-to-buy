@@ -28,9 +28,9 @@ const showProducts = (products) => {
   for (const product of allProducts) {
     const image = product.images;
     const div = document.createElement("div");
-    div.classList.add("col");
-    div.innerHTML = `<div class="col">
-            <div class="card border-success border-2 h-100">
+    div.classList.add("product");
+    div.innerHTML = `<div style="height: calc(100vh/1.6)" class="col">
+            <div class="card border-success border-2 h-100" >
 
               <!-- Start Card Thumbnail -->
               <div>
@@ -78,11 +78,10 @@ const showProducts = (products) => {
                   </div>
                 </div>
                 <!-- popup button end -->
-              </div>
-
-              <div class='text-white' style="background-color: gray;">
-                <P>Approximately <b>${product.rating.count}</b> person rate this product.</p>
-                <p>It's average product rate is: <b>${product.rating.rate}</b></p>
+                <div class='text-white' style="background-color: gray;">
+                  <P>Approximately <span class= 'text-warning fw-bold'>${product.rating.count}</span> person rate this product.</p>
+                  <p>It's average product rate is: <span class= 'text-warning fw-bold'>${product.rating.rate}</span></p>
+                </div>
               </div>
               <!--End Card FOOTER Styling -->
             </div>
