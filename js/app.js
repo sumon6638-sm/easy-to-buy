@@ -1,3 +1,4 @@
+// Automatically loadProducts when website refresh...
 const loadProducts = () => {
   const url = `https://fakestoreapi.com/products`;
   fetch(url)
@@ -6,6 +7,7 @@ const loadProducts = () => {
 };
 loadProducts();
 
+// Show Product by your search...
 const searchProducts = () => {
   const searchInput = document.getElementById('search-Input');
   const searchText = searchInput.value;
@@ -18,7 +20,6 @@ const searchProducts = () => {
 
 
 // show all product in UI 
-
 const showProducts = (products) => {
 
   const allProducts = products.map((pd) => pd);
@@ -29,8 +30,8 @@ const showProducts = (products) => {
     const image = product.images;
     const div = document.createElement("div");
     div.classList.add("product");
-    div.innerHTML = `<div style="height: calc(100vh/1.6)" class="col">
-            <div class="card border-success border-2 h-100" >
+    div.innerHTML = `<div class="col">
+            <div class="card border-success border-2">
 
               <!-- Start Card Thumbnail -->
               <div>
@@ -90,6 +91,8 @@ const showProducts = (products) => {
     allProductsList.appendChild(div);
   }
 };
+
+// Product counting --> how many product add to cart
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
@@ -99,8 +102,6 @@ const addToCart = (id, price) => {
   updateTotal();
   document.getElementById("total-Products").innerText = count;
 };
-
-
 
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
@@ -138,13 +139,13 @@ const updateTaxAndCharge = () => {
   }
 };
 
-//grandTotal update function
+// grandTotal update function
 const updateTotal = () => {
   const grandTotal = getInputValue("price") + getInputValue("delivery-charge") + getInputValue("total-tax");
   document.getElementById("total").innerText = (grandTotal).toFixed(2);
 };
 
-
+// Buy Now button functionality
 const buyNow = () => {
   const productNumber = document.getElementById("total-Products").innerText
   if (productNumber > 0) {
