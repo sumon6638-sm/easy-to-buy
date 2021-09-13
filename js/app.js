@@ -151,7 +151,7 @@ const buyNow = () => {
   if (productNumber > 0) {
     const div = document.getElementById('checkOut');
     div.innerHTML = `
-    <p class='cart text-center'> If you want to buy your selected product then <button class='btn btn-primary'>Click Here</button></p>
+    <p class='cart text-center'> If you want to buy your selected product then <button class='btn btn-outline-primary'>Click Here</button></p>
     `
   }
   else {
