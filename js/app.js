@@ -48,12 +48,12 @@ const showProducts = (products) => {
               <!-- Start Card Footer Styling -->
               <div class="card-footer" style="background-color: gray;">
                 <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn"
-                  class="buy-now btn btn-outline-success">Add
+                  class="buy-now btn btn-success">Add
                   to cart</button>
 
                 <!-- popup button starting -->
                 <!-- Button trigger modal -->
-                <button type="button" id="details-btn" class="btn btn-outline-danger my-button" data-bs-toggle="modal"
+                <button type="button" id="details-btn" class="btn btn-danger my-button" data-bs-toggle="modal"
                   data-bs-target="#staticBackdrop">
                   Details
                 </button>
