@@ -1,4 +1,4 @@
-## Repository link: https://github.com/Programming-Hero-Web-Course4/ranga-store-fix-sumon6638-sm
+## Repository link: https://github.com/sumon6638-sm/easy-to-buy
 
 ## Live site link: https://easytobuy-sumon6638.netlify.app/
 
